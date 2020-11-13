@@ -33,7 +33,7 @@
 /* Serial ACM interface */
 #define CDCACM_PACKET_SIZE 	128
 #define CDCACM_UART_ENDPOINT	0x03
-#define CDCACM_INTR_ENDPOINT	0x84
+#define CDCACM_INTR_ENDPOINT	0x83
 
 static const struct usb_endpoint_descriptor uart_comm_endp[] = {{
 	.bLength = USB_DT_ENDPOINT_SIZE,
